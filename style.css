@@ -1,0 +1,35 @@
+body{
+    background-color:turquoise;
+}
+
+h1{
+    
+    background-color: crimson;
+    color:rgb(95, 0, 255)
+}
+
+#show_sketch
+{
+    float:right;
+}
+
+canvas{
+    border:5px solid white;
+    border-radius:20px;
+    animation-name: drawing;
+    animation-duration: 4s;
+    margin-top: 55px;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes example {
+    from {box-shadow: 1px 1px 38px black;}
+    to {box-shadow: 1px 1px 38px white;}
+}
+
+p{
+    padding-top:10px;
+    font-size:25px;
+
+} 
